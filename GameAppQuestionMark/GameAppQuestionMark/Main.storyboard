@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="VQW-iZ-5J4">
-    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
@@ -21,13 +21,13 @@
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Welcome!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="V13-Y6-4OX">
-                                <rect key="frame" x="105" y="94" width="204.5" height="71.5"/>
+                                <rect key="frame" x="105.00000000000001" y="94" width="204.33333333333337" height="71.333333333333314"/>
                                 <fontDescription key="fontDescription" name="Dehuti-Bold" family="Dehuti" pointSize="44"/>
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="EjI-Ys-muH">
-                                <rect key="frame" x="8" y="200.5" width="398" height="157"/>
+                                <rect key="frame" x="8" y="200.33333333333337" width="398" height="157"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="157" id="Gtl-d9-wuA"/>
                                 </constraints>
@@ -37,7 +37,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="We disguised it as a game app so that your abuser won't catch on to how the app is working." textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="rbV-R0-X1f">
-                                <rect key="frame" x="8" y="377.5" width="398" height="115"/>
+                                <rect key="frame" x="8" y="377.33333333333331" width="398" height="115"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="115" id="bzO-2V-299"/>
                                 </constraints>
@@ -46,7 +46,7 @@
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NKw-0R-Vxf">
-                                <rect key="frame" x="82" y="522.5" width="250" height="250"/>
+                                <rect key="frame" x="82" y="522.33333333333337" width="250" height="250"/>
                                 <color key="backgroundColor" white="1" alpha="0.19809503424657535" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
                                     <constraint firstAttribute="width" secondItem="NKw-0R-Vxf" secondAttribute="height" multiplier="1:1" id="G6k-Nx-wW2"/>
@@ -60,7 +60,7 @@
                                     <color key="titleColor" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 </state>
                                 <connections>
-                                    <segue destination="Keh-a5-PpY" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="HSU-ul-8aw"/>
+                                    <segue destination="7Jv-XI-UpG" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="TLS-o1-9J3"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -89,47 +89,86 @@
             <point key="canvasLocation" x="127.53623188405798" y="133.92857142857142"/>
         </scene>
         <!--Second Onboard Scroll View Controller-->
-        <scene sceneID="Im7-QZ-dJe">
+        <scene sceneID="EDD-ay-WRu">
             <objects>
-                <viewController id="Keh-a5-PpY" customClass="SecondOnboardScrollViewController" customModule="GameAppQuestionMark" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="jie-fs-Nv4">
+                <viewController id="7Jv-XI-UpG" customClass="SecondOnboardScrollViewController" customModule="GameAppQuestionMark" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="mk4-RZ-EHj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView verifyAmbiguity="off" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="WfO-mf-5MZ" customClass="ScrollView" customModule="GameAppQuestionMark" customModuleProvider="target">
-                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
-                                <subviews>
-                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aVc-81-oyn" customClass="OnboardScrollView" customModule="GameAppQuestionMark" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
-                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                                    </view>
-                                </subviews>
-                                <constraints>
-                                    <constraint firstItem="aVc-81-oyn" firstAttribute="width" secondItem="WfO-mf-5MZ" secondAttribute="width" id="Egt-HO-bUE"/>
-                                    <constraint firstItem="aVc-81-oyn" firstAttribute="height" secondItem="WfO-mf-5MZ" secondAttribute="height" priority="250" id="Nj9-P6-QYv"/>
-                                    <constraint firstItem="aVc-81-oyn" firstAttribute="top" secondItem="Ufg-X2-8nP" secondAttribute="top" id="c14-2q-IXt"/>
-                                    <constraint firstItem="Ufg-X2-8nP" firstAttribute="bottom" secondItem="aVc-81-oyn" secondAttribute="bottom" id="mna-kE-5Jz"/>
-                                    <constraint firstItem="Ufg-X2-8nP" firstAttribute="trailing" secondItem="aVc-81-oyn" secondAttribute="trailing" id="oi3-eg-Dp2"/>
-                                    <constraint firstItem="aVc-81-oyn" firstAttribute="leading" secondItem="Ufg-X2-8nP" secondAttribute="leading" id="tQc-Gi-NOe"/>
-                                </constraints>
-                                <viewLayoutGuide key="contentLayoutGuide" id="6ss-Vw-2sl"/>
-                                <viewLayoutGuide key="frameLayoutGuide" id="Ufg-X2-8nP"/>
-                            </scrollView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="14p-aY-DZa">
+                                <rect key="frame" x="20" y="44" width="374" height="568"/>
+                                <mutableString key="text">The app needs access to a few things in order to work properly:  Microphone: Access to this allows the app to record any conversations that you may have with an attacker/abuser.  Camera: To try and get video footage of your attacker/abuser in a potential assault.  Contacts: This is to make sure that your family and/or friends will be alerted when selected.</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Dehuti-Bold" family="Dehuti" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wEA-jN-Ai9">
+                                <rect key="frame" x="269" y="790" width="125" height="72"/>
+                                <fontDescription key="fontDescription" name="Dehuti-Bold" family="Dehuti" pointSize="37"/>
+                                <state key="normal" title="Next ⇢">
+                                    <color key="titleColor" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <segue destination="95g-cH-csc" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="partialCurl" id="Liq-90-0No"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="WHEN YOU THINK YOU'RE IN DANGER, SELECT A DIFFICULTY AND PRESS START" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="7Ai-Wo-kuC">
+                                <rect key="frame" x="20" y="620" width="374" height="128"/>
+                                <color key="textColor" systemColor="systemRedColor" red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Dehuti-Bold" family="Dehuti" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="WfO-mf-5MZ" firstAttribute="leading" secondItem="0uA-eM-KVP" secondAttribute="leading" id="7Cf-kk-3ds"/>
-                            <constraint firstItem="WfO-mf-5MZ" firstAttribute="top" secondItem="0uA-eM-KVP" secondAttribute="top" id="LT5-ss-fPE"/>
-                            <constraint firstItem="0uA-eM-KVP" firstAttribute="bottom" secondItem="WfO-mf-5MZ" secondAttribute="bottom" id="csO-aZ-kFG"/>
-                            <constraint firstItem="0uA-eM-KVP" firstAttribute="trailing" secondItem="WfO-mf-5MZ" secondAttribute="trailing" id="gZH-xn-VAZ"/>
+                            <constraint firstItem="14p-aY-DZa" firstAttribute="leading" secondItem="nPm-j6-ctl" secondAttribute="leading" constant="20" id="49G-H7-cvH"/>
+                            <constraint firstItem="wEA-jN-Ai9" firstAttribute="top" secondItem="7Ai-Wo-kuC" secondAttribute="bottom" constant="42" id="5YG-sz-XX4"/>
+                            <constraint firstItem="nPm-j6-ctl" firstAttribute="trailing" secondItem="wEA-jN-Ai9" secondAttribute="trailing" constant="20" id="9wf-Se-zye"/>
+                            <constraint firstItem="7Ai-Wo-kuC" firstAttribute="top" secondItem="14p-aY-DZa" secondAttribute="bottom" constant="8" id="EP3-Cu-ntj"/>
+                            <constraint firstItem="7Ai-Wo-kuC" firstAttribute="leading" secondItem="nPm-j6-ctl" secondAttribute="leading" constant="20" id="T1G-BK-Suu"/>
+                            <constraint firstItem="nPm-j6-ctl" firstAttribute="trailing" secondItem="14p-aY-DZa" secondAttribute="trailing" constant="20" id="VJx-OT-DSI"/>
+                            <constraint firstItem="wEA-jN-Ai9" firstAttribute="bottom" secondItem="nPm-j6-ctl" secondAttribute="bottom" id="WP1-dw-Gx9"/>
+                            <constraint firstItem="14p-aY-DZa" firstAttribute="top" secondItem="nPm-j6-ctl" secondAttribute="top" id="gvb-zY-j44"/>
+                            <constraint firstItem="nPm-j6-ctl" firstAttribute="bottom" secondItem="14p-aY-DZa" secondAttribute="bottom" constant="250" id="kYk-Cd-lyo"/>
+                            <constraint firstItem="nPm-j6-ctl" firstAttribute="trailing" secondItem="7Ai-Wo-kuC" secondAttribute="trailing" constant="20" id="uMk-Kq-Aph"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="0uA-eM-KVP"/>
+                        <viewLayoutGuide key="safeArea" id="nPm-j6-ctl"/>
                     </view>
-                    <navigationItem key="navigationItem" id="JDh-IT-F0w"/>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="vYp-Gz-dj0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="R8o-ZO-gNJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1150.7246376811595" y="133.92857142857142"/>
+            <point key="canvasLocation" x="984" y="134"/>
+        </scene>
+        <!--Third Onboard View Controller-->
+        <scene sceneID="Z17-Dd-l3k">
+            <objects>
+                <viewController id="95g-cH-csc" customClass="ThirdOnboardViewController" customModule="GameAppQuestionMark" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yXt-et-txr">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="hoD-QM-ULO">
+                                <rect key="frame" x="20" y="44" width="374" height="518"/>
+                                <mutableString key="text">Easy: The app uses the microphone to record your conversation and alert your "Easy" contacts that you may be in danger with your abuser.  Medium: The app users both your microphone and camera to record audio and video of the situation. Any recordings will be sent to your "Medium" contacts.  Hard: The app will capture the event as listed in "Medium" mode as well as call 911 on your behalf.</mutableString>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" name="Dehuti-Bold" family="Dehuti" pointSize="21"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemIndigoColor" red="0.34509803921568627" green="0.33725490196078434" blue="0.83921568627450982" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="dQd-Is-4mp" firstAttribute="bottom" secondItem="hoD-QM-ULO" secondAttribute="bottom" constant="300" id="KzI-g1-4WX"/>
+                            <constraint firstItem="hoD-QM-ULO" firstAttribute="leading" secondItem="dQd-Is-4mp" secondAttribute="leading" constant="20" id="Lgc-rs-Dtf"/>
+                            <constraint firstItem="hoD-QM-ULO" firstAttribute="top" secondItem="dQd-Is-4mp" secondAttribute="top" id="nP2-CO-Pg5"/>
+                            <constraint firstItem="dQd-Is-4mp" firstAttribute="trailing" secondItem="hoD-QM-ULO" secondAttribute="trailing" constant="20" id="rrH-13-jg7"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="dQd-Is-4mp"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="p1Q-xG-eFI" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1830" y="134"/>
         </scene>
     </scenes>
 </document>
