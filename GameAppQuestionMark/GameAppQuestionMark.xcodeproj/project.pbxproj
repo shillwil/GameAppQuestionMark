@@ -10,11 +10,18 @@
 		A21DB442235638F0006120FF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21DB441235638F0006120FF /* AppDelegate.swift */; };
 		A21DB444235638F0006120FF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21DB443235638F0006120FF /* SceneDelegate.swift */; };
 		A21DB446235638F0006120FF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21DB445235638F0006120FF /* ViewController.swift */; };
-		A21DB449235638F0006120FF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21DB447235638F0006120FF /* Main.storyboard */; };
+		A21DB449235638F0006120FF /* First.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21DB447235638F0006120FF /* First.storyboard */; };
 		A21DB44B235638F3006120FF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A21DB44A235638F3006120FF /* Assets.xcassets */; };
 		A21DB44E235638F3006120FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A21DB44C235638F3006120FF /* LaunchScreen.storyboard */; };
 		A21DB459235638F3006120FF /* GameAppQuestionMarkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21DB458235638F3006120FF /* GameAppQuestionMarkTests.swift */; };
 		A21DB464235638F3006120FF /* GameAppQuestionMarkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A21DB463235638F3006120FF /* GameAppQuestionMarkUITests.swift */; };
+		A278B24223563AC7004FBE5C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A278B24123563AC7004FBE5C /* Main.storyboard */; };
+		A28A989D235BE8410078F08A /* SecondOnboardScrollViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28A989C235BE8410078F08A /* SecondOnboardScrollViewController.swift */; };
+		A28A989F235BE94A0078F08A /* ScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A28A989E235BE94A0078F08A /* ScrollView.swift */; };
+		A29110BF235BC78C00773023 /* Dehuti-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = A29110BE235BC78400773023 /* Dehuti-Bold.otf */; };
+		A29110C1235BCA3F00773023 /* FirstOnboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29110C0235BCA3F00773023 /* FirstOnboardViewController.swift */; };
+		A29110C4235BCBCC00773023 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = A29110C3235BCBCC00773023 /* Colors.swift */; };
+		A2E1F74A235BE68F006E1FE2 /* OnboardScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2E1F749235BE68F006E1FE2 /* OnboardScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +46,7 @@
 		A21DB441235638F0006120FF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A21DB443235638F0006120FF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		A21DB445235638F0006120FF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		A21DB448235638F0006120FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A21DB448235638F0006120FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/First.storyboard; sourceTree = "<group>"; };
 		A21DB44A235638F3006120FF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A21DB44D235638F3006120FF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A21DB44F235638F3006120FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -49,6 +56,13 @@
 		A21DB45F235638F3006120FF /* GameAppQuestionMarkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GameAppQuestionMarkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A21DB463235638F3006120FF /* GameAppQuestionMarkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameAppQuestionMarkUITests.swift; sourceTree = "<group>"; };
 		A21DB465235638F3006120FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A278B24123563AC7004FBE5C /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		A28A989C235BE8410078F08A /* SecondOnboardScrollViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondOnboardScrollViewController.swift; sourceTree = "<group>"; };
+		A28A989E235BE94A0078F08A /* ScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollView.swift; sourceTree = "<group>"; };
+		A29110BE235BC78400773023 /* Dehuti-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Dehuti-Bold.otf"; sourceTree = "<group>"; };
+		A29110C0235BCA3F00773023 /* FirstOnboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstOnboardViewController.swift; sourceTree = "<group>"; };
+		A29110C3235BCBCC00773023 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		A2E1F749235BE68F006E1FE2 /* OnboardScrollView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,10 +116,15 @@
 				A21DB441235638F0006120FF /* AppDelegate.swift */,
 				A21DB443235638F0006120FF /* SceneDelegate.swift */,
 				A21DB445235638F0006120FF /* ViewController.swift */,
-				A21DB447235638F0006120FF /* Main.storyboard */,
+				A21DB447235638F0006120FF /* First.storyboard */,
+				A278B24123563AC7004FBE5C /* Main.storyboard */,
 				A21DB44A235638F3006120FF /* Assets.xcassets */,
+				A29110BE235BC78400773023 /* Dehuti-Bold.otf */,
 				A21DB44C235638F3006120FF /* LaunchScreen.storyboard */,
 				A21DB44F235638F3006120FF /* Info.plist */,
+				A28A98A0235BE94E0078F08A /* View */,
+				A29110C2235BCA4700773023 /* View Controllers */,
+				A29110C3235BCBCC00773023 /* Colors.swift */,
 			);
 			path = GameAppQuestionMark;
 			sourceTree = "<group>";
@@ -126,6 +145,24 @@
 				A21DB465235638F3006120FF /* Info.plist */,
 			);
 			path = GameAppQuestionMarkUITests;
+			sourceTree = "<group>";
+		};
+		A28A98A0235BE94E0078F08A /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A2E1F749235BE68F006E1FE2 /* OnboardScrollView.swift */,
+				A28A989E235BE94A0078F08A /* ScrollView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A29110C2235BCA4700773023 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A29110C0235BCA3F00773023 /* FirstOnboardViewController.swift */,
+				A28A989C235BE8410078F08A /* SecondOnboardScrollViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -233,8 +270,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				A21DB44E235638F3006120FF /* LaunchScreen.storyboard in Resources */,
+				A278B24223563AC7004FBE5C /* Main.storyboard in Resources */,
+				A29110BF235BC78C00773023 /* Dehuti-Bold.otf in Resources */,
 				A21DB44B235638F3006120FF /* Assets.xcassets in Resources */,
-				A21DB449235638F0006120FF /* Main.storyboard in Resources */,
+				A21DB449235638F0006120FF /* First.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +298,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A2E1F74A235BE68F006E1FE2 /* OnboardScrollView.swift in Sources */,
 				A21DB446235638F0006120FF /* ViewController.swift in Sources */,
+				A28A989D235BE8410078F08A /* SecondOnboardScrollViewController.swift in Sources */,
+				A29110C4235BCBCC00773023 /* Colors.swift in Sources */,
 				A21DB442235638F0006120FF /* AppDelegate.swift in Sources */,
+				A28A989F235BE94A0078F08A /* ScrollView.swift in Sources */,
+				A29110C1235BCA3F00773023 /* FirstOnboardViewController.swift in Sources */,
 				A21DB444235638F0006120FF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,12 +341,12 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		A21DB447235638F0006120FF /* Main.storyboard */ = {
+		A21DB447235638F0006120FF /* First.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				A21DB448235638F0006120FF /* Base */,
 			);
-			name = Main.storyboard;
+			name = First.storyboard;
 			sourceTree = "<group>";
 		};
 		A21DB44C235638F3006120FF /* LaunchScreen.storyboard */ = {
